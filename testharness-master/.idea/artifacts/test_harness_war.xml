@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="test-harness:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>test-harness</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="testharness.war">
+      <element id="artifact" artifact-name="test-harness:war exploded" />
+    </root>
+  </artifact>
+</component>
